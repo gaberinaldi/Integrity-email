@@ -35,7 +35,7 @@
         font-family: sans-serif;
       }
       .two-col {
-        background-color: #425ea9;
+        background-color: #344b8b;
         text-align: center;
         font-size: 0;
       }
@@ -45,6 +45,25 @@
         display: inline-block;
         vertical-align: top;
         text-align: center;
+      }
+      .two-col.last {
+        padding: 15px 0;
+      }
+      .two-col .padding {
+        padding: 20px;
+      }
+      .two-col .content {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .button {
+        background-color: #ffffff;
+        color: #344b8b;
+        text-decoration: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -111,8 +130,81 @@
               </tr>
             </table>
           </td>
-          <!--End Header-->
         </tr>
+        <!--End Header-->
+
+        <!--Image section-->
+        <tr>
+          <td>
+            <a href="https://integrity.com/"
+              ><img
+                src="img/banner.png"
+                alt="Integrity banner"
+                width="600"
+                style="max-width: 100%"
+            /></a>
+          </td>
+        </tr>
+        <!--End image section-->
+
+        <!--Content section-->
+        <tr>
+          <td style="background-color: #344b8b; color: #ffffff">
+            <table width="100%">
+              <tr>
+                <td class="two-col last">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="https://integrity.com/about-us/overview/"
+                                ><img
+                                  src="img/Values.jpg"
+                                  alt="Values"
+                                  width="260"
+                                  style="max-width: 260px"
+                              /></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size: 18px">
+                                Our Company Values
+                              </p>
+                              <p style="padding-bottom: 16px">
+                                We know that by staying true to our values,
+                                we’ll never lose sight of who we are. Integrity,
+                                family, service, respect and partnership drives
+                                everything we say and do.
+                              </p>
+                              <a
+                                href="https://integrity.com/about-us/overview/"
+                                class="button"
+                                >Read More</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--End content section-->
       </table>
     </center>
   </body>
