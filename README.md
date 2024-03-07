@@ -19,3 +19,6 @@ To send an email using this template, simply copy the HTML content and paste it 
 
 For any questions or support, please contact me at gaberinaldi.bio@gmail.com.
 
+## Screenshot 
+
+![template](https://github.com/gaberinaldi/Integrity-email/assets/126215578/5df15111-0681-40f8-b7f8-5d23385b5a1c)
